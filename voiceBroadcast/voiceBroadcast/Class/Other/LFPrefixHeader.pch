@@ -1,0 +1,27 @@
+//
+//  LFPrefixHeader.pch
+//  voiceBroadcast
+//
+//  Created by apple on 2017/11/13.
+//  Copyright © 2017年 baixinxueche. All rights reserved.
+//
+
+#ifndef LFPrefixHeader_pch
+#define LFPrefixHeader_pch
+
+#import "LFActionSheet.h"
+#import "BXHttpManager.h"
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "CLLocation+Sino.h"
+
+#import "BDSSpeechSynthesizer.h"//百度语音播报头文件
+#define WIDTH   self.view.frame.size.width
+#define HEIGHT  self.view.frame.size.height
+#define THEMECOLOR [UIColor colorWithRed:50/255.0 green:92/255.0 blue:143/255.0 alpha:1]
+#define GREENCOLOR [UIColor colorWithRed:36/255.0 green:127/255.0 blue:8/255.0 alpha:1]
+#define LIGHTGRAY  [UIColor colorWithRed:239/255.0 green:239/255.0 blue:244/255.0 alpha:1]
+
+#endif /* LFPrefixHeader_pch */
